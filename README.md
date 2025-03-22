@@ -1,1 +1,7 @@
-# NightSight
+# Advanced Object Detection in Low-Light Conditions: Enhancements to YOLOv7 Framework
+
+Object detection in low-light conditions is increasingly relevant across various applications, presenting a challenge for improving accuracy. This study employs the popular YOLOv7 framework and examines low-light image characteristics, implementing performance enhancement strategies tailored to these conditions. We integrate an agile hybrid convolutional module to enhance edge information extraction, improving detailed discernment in low-light scenes. Convolutional attention and deformable convolutional modules are added to extract rich semantic information. Cross-layer connection structures are established to reinforce critical information, enhancing feature representation. We use brightness-adjusted data augmentation and a novel bounding box loss function to improve detection performance. Evaluations on the ExDark dataset show that our method achieved an mAP50 of 80.1% and an mAP50:95 of 52.3%, improving by 8.6% and 11.5% over the baseline model, respectively. These results validate the effectiveness of our approach for low-light object detection.
+
+### Dataset
+
+[ExDark](https://drive.google.com/file/d/1BHmPgu8EsHoFDDkMGLVoXIlCth2dW6Yx/view?pli=1): Encompassing a diverse range of 12 categories, namely Bus, Cat, Dog, Motorbike, Bicycle, Boat, Cup, Bottle, Table, Chair, Car, and People, the dataset boasts images of varying sizes and complex backgrounds, predominantly featuring partial nighttime lighting. The authenticity of the captured scenes renders the trained model highly suitable for practical applications. 
